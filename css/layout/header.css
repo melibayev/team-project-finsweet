@@ -36,4 +36,10 @@ nav {
     color: #FFFFFF;
     background: #1D2130;
     border-radius: 4px;
-} 
+}
+
+@media (max-width: 900px) {
+    .nav-item {
+        display: none;
+    }
+}
