@@ -1,1 +1,253 @@
 @import "../../global.css";
+
+#home {
+    padding-top: 120px;
+    margin-bottom: -100px;
+}
+
+.about-home {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-home__left {
+    max-width: 624px;
+    margin-left: 80px;
+}
+
+.about-home__left p {
+    font-weight: 700;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+
+.about-home__left h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.about-home__right {
+    max-width: 500px;
+}
+
+.about-home__right h3 {
+    margin-top: 65px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+.about-home__right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.7;
+}
+
+.about-home__video {
+    position: relative;
+    text-align: center;
+    top: 120px;
+    width: 100%;
+    height: 100%;
+}
+
+.about-home__video button {
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    background-color: transparent;
+}
+
+.about-home__video img {
+    position: relative;
+    width: 100%;
+}
+
+/* partners */
+
+#clients {
+    padding-top: 320px;
+    padding-bottom: 100px;
+    background: #EFF7F2;
+}
+
+.clients__title{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.clients__title__left h1,
+.clients__title__right h1,
+.clients__title__left p,
+.clients__title__right p {
+    max-width: 496px;
+}
+
+.clients__title__left h3,
+.clients__title__right h3 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+
+.clients__title__left h1,
+.clients__title__right h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+.clients__title__left p,
+.clients__title__right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.7;
+}
+
+.supporters{
+    margin-top: 100px;
+}
+
+.supporters__title h3{
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+
+.supporters__logo {
+    display: flex;
+    gap: 100px;
+}
+
+#awards{
+    padding-top: 100px;
+}
+
+.award__title h1 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #1D2130;
+}
+
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+
+.award {
+    text-align: center;
+}
+
+.award h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #1D2130;
+    margin-bottom: 4px;
+}
+
+.award h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    margin-bottom: 4px;
+}
+
+.award p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #1D2130;
+    opacity: 0.6;
+}
+
+.journey {
+    padding: 64px 0;
+    padding-left: 96px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    color: white;
+    background: #0B0706;
+    border-radius: 12px;
+}
+
+.journey-left h3 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.journey-left h1 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.journey-left p {
+    margin-bottom: 32px;
+    max-width: 488px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.journey-statistics {
+    display: flex;
+    gap: 32px;
+}
+
+.statistic h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.statistic p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
