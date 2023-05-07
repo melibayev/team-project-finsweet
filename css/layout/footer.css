@@ -1,1 +1,74 @@
 @import "../global.css";
+
+footer {
+    background-color: #0B0706;
+}
+
+.footer {
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-item {
+    margin-bottom: 24px;
+}
+
+.footer-item a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(255,255,255, 0.5);
+}
+
+.footer-item:first-child a {
+    color: rgb(255,255,255);
+}
+
+.footer-right__title h1{
+    margin-bottom: 32px;
+    max-width: 440px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer__input {
+    position: relative;
+}
+
+.footer__input input{
+    padding: 22px 24px;
+    width: 75%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(235, 240, 249, 0.3);
+    opacity: 0.8;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    border-radius: 4px;
+}
+
+.footer__input button {
+    width: 30%;
+    position: absolute;
+    padding: 22px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1D2130;
+    right: 0;
+    background: #FFFFFF;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+}
