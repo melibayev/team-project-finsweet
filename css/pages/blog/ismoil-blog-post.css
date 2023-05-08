@@ -1,3 +1,4 @@
+@import "../../global.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
@@ -71,7 +72,7 @@ nav {
 }
 
 .read__happening-date {
-    padding-top: 95px;
+    padding-top: 175px;
     text-align: center;
     font-size: 16px;
     color: #1d2130;
@@ -291,7 +292,28 @@ footer {
 
     .footer__input button {
         padding: 22px 20px;
-    }
+    }   
+}
 
-    
+@media (max-width: 1200px) {
+    .read__happening-img {
+        display: none;
+    }
+    .read__happening-text {
+        text-align: center;
+    }
+    .read__happening-content {
+        text-align: center;
+    }
+    .read__articles {
+        text-align: center;
+        margin-right: 150px;
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .read__articles {
+        text-align: center;
+    }
 }
