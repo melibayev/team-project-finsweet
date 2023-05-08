@@ -9,6 +9,65 @@ homeVideo.addEventListener("click", () => {
     homeVideo.pause()
     homeVideoBtn.style.display = "flex"
 })
+const ctx = document.getElementById('chart');
+
+new Chart(ctx, {
+  type: 'doughnut',
+  data: {
+    labels: ['Planting trees', 'Cleanliness program', 'Helping people', 'Animal safety', 'Feeding the poor'],
+    datasets: [{
+      label: '% of donations',
+      data: [40, 35, 10, 10, 5],
+      backgroundColor: [
+        '#BEF3C0',
+        '#AC94F1',
+        '#FFF0CA',
+        '#F9CF64',
+        '#F38FBF'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    plugins: {
+        legend: {
+            display: false
+        },
+        chartAreaBorder: {
+            borderColor: 'red',
+            borderWidth: 2,
+            borderDash: [5, 5],
+            borderDashOffset: 2,
+    },
+    scales: {
+        border: {
+            display: false
+        },
+      x: {
+        grid: {
+        drawOnChartArea: false,
+        drawTicks: false,
+        drawBorder: false,
+        display: false
+        },
+        ticks: {
+            display: false
+        },
+      },
+      y: {
+        beginAtZero: true,
+        grid: {
+            drawOnChartArea: false,
+            drawTicks: false
+        },
+        ticks: {
+            display: false
+        },
+      },
+    }
+  }
+}
+});
 // Navbar-open / Navbar-close
 function openNavbar() {
     document.getElementById("navbar-responsive").style.right = "0";
