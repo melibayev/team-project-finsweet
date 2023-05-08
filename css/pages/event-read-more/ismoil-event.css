@@ -72,7 +72,6 @@ nav {
 .event__save-earth {
     min-height: 60vh;
     padding-top: 90px;
-    background-color: #eff7f2;
 }
 
 .event__save-earth-h1 {
@@ -345,6 +344,4 @@ footer {
     .footer__input button {
         padding: 22px 20px;
     }
-
-    
 }

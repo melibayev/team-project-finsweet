@@ -292,7 +292,28 @@ footer {
 
     .footer__input button {
         padding: 22px 20px;
-    }
+    }   
+}
 
-    
+@media (max-width: 1200px) {
+    .read__happening-img {
+        display: none;
+    }
+    .read__happening-text {
+        text-align: center;
+    }
+    .read__happening-content {
+        text-align: center;
+    }
+    .read__articles {
+        text-align: center;
+        margin-right: 150px;
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .read__articles {
+        text-align: center;
+    }
 }
