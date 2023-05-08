@@ -1,3 +1,14 @@
+const homeVideo = document.getElementById("homevideo");
+const homeVideoBtn = document.getElementById("homevideoBtn")
+
+homeVideoBtn.addEventListener("click", () => {
+        homeVideo.play()
+        homeVideoBtn.style.display = "none"
+})
+homeVideo.addEventListener("click", () => {
+    homeVideo.pause()
+    homeVideoBtn.style.display = "flex"
+})
 // Navbar-open / Navbar-close
 function openNavbar() {
     document.getElementById("navbar-responsive").style.right = "0";

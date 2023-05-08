@@ -23,6 +23,6 @@ button {
 a, h1, h2,
 h3, p, span,
 button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
 }

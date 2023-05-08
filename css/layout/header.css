@@ -6,6 +6,8 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
+    background-color: white;
+    z-index: 9;
 }
 
 .navbar {
@@ -20,7 +22,41 @@ nav {
     align-items: center;
     gap: 40px;
 }
-
+.nav-items li{
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+.nav-items li:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.nav-items li::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #1D2130;
+    transition: .1s linear;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -ms-transition: .1s linear;
+    -o-transition: .1s linear;
+}
+.nav-items li:hover:before{
+    width: 100%;
+}
 .nav-item a {
     font-weight: 500;
     font-size: 16px;
@@ -36,6 +72,20 @@ nav {
     color: #FFFFFF;
     background: #1D2130;
     border-radius: 4px;
+    border: 2px solid transparent;
+    transition: .1s linear;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -ms-transition: .1s linear;
+    -o-transition: .1s linear;
+}
+.donate-btn:hover{
+    background-color: transparent;
+    color: #1D2130;
+    border: 2px solid #1D2130;
+}
+.nav-left{
+    cursor: pointer;
 }
 
 @media (max-width: 900px) {
